@@ -1,0 +1,30 @@
+Mar 12 07:38:01 server sshd[1234]: Failed password for root from 203.0.113.5 port 22 ssh2
+Mar 12 07:38:02 server sshd[1235]: Failed password for admin from 203.0.113.5 port 22 ssh2
+Mar 12 07:38:03 server sshd[1236]: Accepted password for user from 192.168.1.100 port 22 ssh2
+Mar 12 07:38:04 server sshd[1237]: Failed password for postgres from 203.0.113.5 port 22 ssh2
+Mar 12 07:38:05 server sshd[1238]: Invalid user guest from 198.51.100.10 port 22 ssh2
+Mar 12 07:38:06 server sshd[1239]: Failed password for invalid user hacker from 203.0.113.6 port 22 ssh2
+Mar 12 07:38:07 server sshd[1240]: Accepted password for ubuntu from 10.0.0.2 port 22 ssh2
+Mar 12 07:38:08 server sshd[1241]: Disconnected from authenticating user root 203.0.113.7 port 22 [preauth]
+Mar 12 07:38:09 server sshd[1242]: Failed password for ec2-user from 54.239.26.214 port 22 ssh2
+Mar 12 07:38:10 server sshd[1243]: Invalid user oracle from 185.130.5.133 port 22 ssh2
+Mar 12 07:38:11 server sshd[1244]: Accepted password for git from 192.168.1.101 port 22 ssh2
+Mar 12 07:38:12 server sshd[1245]: Failed password for www-data from 203.0.113.8 port 22 ssh2
+Mar 12 07:38:13 server sshd[1246]: Connection closed by authenticating user admin 203.0.113.9 port 22 [preauth]
+Mar 12 07:38:14 server sshd[1247]: Failed password for invalid user anonymous from 198.51.100.11 port 22 ssh2
+Mar 12 07:38:15 server sshd[1248]: Accepted publickey for user from 192.168.1.102 port 22 ssh2
+Mar 12 07:38:16 server sshd[1249]: Failed password for root from 203.0.113.10 port 22 ssh2
+Mar 12 07:38:17 server sshd[1250]: Invalid user tester from 198.51.100.12 port 22 ssh2
+Mar 12 07:38:18 server sshd[1251]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=203.0.113.11 user=root
+Mar 12 07:38:19 server sshd[1252]: Failed password for root from 203.0.113.11 port 22 ssh2
+Mar 12 07:38:20 server sshd[1253]: Accepted password for admin from 10.0.0.3 port 22 ssh2
+Mar 12 07:38:21 server sshd[1254]: Failed password for invalid user backup from 203.0.113.12 port 22 ssh2
+Mar 12 07:38:22 server sshd[1255]: Disconnected from invalid user backup 203.0.113.12 port 22 [preauth]
+Mar 12 07:38:23 server sshd[1256]: Failed password for user from 192.168.1.103 port 22 ssh2
+Mar 12 07:38:24 server sshd[1257]: Invalid user mysql from 198.51.100.13 port 22 ssh2
+Mar 12 07:38:25 server sshd[1258]: Accepted password for postgres from 10.0.0.4 port 22 ssh2
+Mar 12 07:38:26 server sshd[1259]: Failed password for git from 203.0.113.13 port 22 ssh2
+Mar 12 07:38:27 server sshd[1260]: Connection closed by 203.0.113.14 port 22 [preauth]
+Mar 12 07:38:28 server sshd[1261]: Failed password for root from 203.0.113.14 port 22 ssh2
+Mar 12 07:38:29 server sshd[1262]: Accepted password for ubuntu from 192.168.1.104 port 22 ssh2
+Mar 12 07:38:30 server sshd[1263]: pam_unix(sshd:session): session opened for user ubuntu by (uid=0)

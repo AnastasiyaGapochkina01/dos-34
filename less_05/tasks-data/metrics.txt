@@ -1,0 +1,8 @@
+cpu_usage_seconds 12345
+memory_used_bytes 4294967296
+disk_used_bytes{device="sda1",mount="/"} 5242880000
+disk_used_bytes{device="sdb1",mount="/data"} 10737418240
+http_requests_total{code="200"} 5000
+http_requests_total{code="404"} 23
+http_requests_total{code="500"} 5
+process_uptime_seconds 123456

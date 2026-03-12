@@ -1,0 +1,30 @@
+Jan 12 08:14:35 localhost kernel: [    0.000000] Linux version 5.4.0-26-generic (buildd@lcy01-amd64-023) (gcc version 9.3.0 (Ubuntu 9.3.0-10ubuntu2)) #30-Ubuntu SMP Mon Apr 20 16:58:30 UTC 2020
+Jan 12 08:14:35 localhost kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-5.4.0-26-generic root=UUID=12345678-1234-1234-1234-123456789abc ro quiet splash
+Jan 12 08:14:35 localhost kernel: [    0.000000] x86/fpu: x87 FPU will use FXSAVE
+Jan 12 08:14:36 localhost systemd[1]: Starting Flush Journal to Persistent Storage...
+Jan 12 08:14:36 localhost systemd[1]: Started Flush Journal to Persistent Storage.
+Jan 12 08:14:36 localhost systemd[1]: Starting Create System Users...
+Jan 12 08:14:36 localhost systemd-sysusers[210]: Creating group 'adm' with gid 4.
+Jan 12 08:14:36 localhost systemd[1]: Started Create System Users.
+Jan 12 08:14:37 localhost networkd-dispatcher[312]: WARNING: Unknown index 3 seen, reloading interface list
+Jan 12 08:14:38 localhost NetworkManager[385]: <info>  [1610453678.1234] manager: NetworkManager (version 1.22.10) is starting...
+Jan 12 08:14:38 localhost NetworkManager[385]: <info>  [1610453678.1235] manager: rfkill: Wi-Fi hardware radio set enabled
+Jan 12 08:14:39 localhost systemd[1]: Starting Network Manager Script Dispatcher Service...
+Jan 12 08:14:39 localhost systemd[1]: Started Network Manager Script Dispatcher Service.
+Jan 12 08:14:40 localhost dhclient[623]: DHCPDISCOVER on eth0 to 255.255.255.255 port 67 interval 8
+Jan 12 08:14:41 localhost dhclient[623]: DHCPOFFER of 192.168.1.100 from 192.168.1.1
+Jan 12 08:14:41 localhost dhclient[623]: DHCPREQUEST for 192.168.1.100 on eth0 to 255.255.255.255 port 67
+Jan 12 08:14:41 localhost dhclient[623]: DHCPACK of 192.168.1.100 from 192.168.1.1
+Jan 12 08:14:41 localhost NetworkManager[385]: <info>  [1610453681.2345] dhcp4 (eth0):   address 192.168.1.100
+Jan 12 08:14:42 localhost systemd[1]: Started Network Manager.
+Jan 12 08:14:45 localhost sshd[712]: Server listening on 0.0.0.0 port 22.
+Jan 12 08:14:45 localhost sshd[712]: Server listening on :: port 22.
+Jan 12 08:14:46 localhost cron[734]: (CRON) INFO (pidfile fd = 3)
+Jan 12 08:14:46 localhost cron[734]: (CRON) INFO (Running @reboot jobs)
+Jan 12 08:15:01 localhost CRON[789]: pam_unix(cron:session): session opened for user root by (uid=0)
+Jan 12 08:15:01 localhost CRON[789]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jan 12 08:15:01 localhost CRON[789]: pam_unix(cron:session): session closed for user root
+Jan 12 08:17:42 localhost kernel: [  187.654321] usb 2-1.2: new high-speed USB device number 4 using ehci-pci
+Jan 12 08:17:42 localhost kernel: [  187.765432] usb-storage 2-1.2:1.0: USB Mass Storage device detected
+Jan 12 08:17:43 localhost kernel: [  188.123456] scsi host2: usb-storage 2-1.2:1.0
+Jan 12 08:17:44 localhost systemd-udevd[901]: sdb: Process '/usr/bin/unshare -m /usr/bin/snap auto-import --mount=/dev/sdb' failed with exit code 1.
