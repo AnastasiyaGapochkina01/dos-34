@@ -17,7 +17,8 @@
 [2026-04-14T07:18:39] WARNING msg: mariadb failed to start
 ```
 - написать systemd unit для запуска скрипта как systemd-службы
-2) Написать скрипт для управления приложением `simple-server`; **НЕ systemd**
+2) Написать скрипт для управления приложением `simple-server` https://github.com/AnastasiyaGapochkina01/dos-34/blob/main/less_14/simple-server ; \
+**управляем процессом НЕ systemd**
 - запуск процесса в фоновом режиме с перенаправлением stdout и stderr в файл `simple-server.log`
 - остановка процесса
 - проверка работоспособности приложения (`curl`)
