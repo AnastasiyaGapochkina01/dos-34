@@ -18,7 +18,7 @@
 ```
 - написать systemd unit для запуска скрипта как systemd-службы
 2) Написать скрипт для управления приложением `simple-server` https://github.com/AnastasiyaGapochkina01/dos-34/blob/main/less_14/simple-server ; \
-**управляем процессом НЕ systemd**
+**управляем процессом НЕ через systemd**
 - запуск процесса в фоновом режиме с перенаправлением stdout и stderr в файл `simple-server.log`
 - остановка процесса
 - проверка работоспособности приложения (`curl`)
