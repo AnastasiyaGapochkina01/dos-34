@@ -1,4 +1,14 @@
-1) Установить percona-server на две ВМ (https://docs.percona.com/percona-server/8.0/quickstart-apt.html)
-2) Настроить репликацию master-slave
-3) Добавить proxysql в кластер
-4) Написать скрипт резервного копирования БД с помощью percona-xtrabackup (https://docs.percona.com/percona-xtrabackup/2.4/index.html)
+1) Написать плейбук, который создает системного пользователя с именем appuser с домашней директорией (`/home/appuser`) и оболочкой /bin/bash
+2) Написать плейбук, который копирует публичный SSH-ключ с управляющей машины (`files/appuser.pub`) в файл `authorized_keys` пользователя `appuser` на удаленных узлах (`/home/appuser/.ssh/authorized_keys`).
+Убедиться, что у директории `.ssh` правильные права (`700`), а у файла `authorized_keys` - права (`600`).
+3) Написать плейбук, который копирует шаблон файла `mod` с управляющей машины (`templates/motd.j2`) на удаленные узлы в `/etc/motd`. Использовать переменную `{{ inventory_hostname }}` в шаблоне, чтобы в файле motd отображалось имя хоста.
+Шаблон (`templates/motd.j2`)
+```j2
+Welcome to server {{ inventory_hostname }}!
+Provided by Ansible.
+```
+4) Написать плейбук, который проверит, установлен ли `git` на удаленных узлах и склонирует репозиторий https://gitlab.com/devops201206/it-mtb-blog в директорию `/var/www/simple-blog`
+5) Написать плейбук для сбора системной информации об управляемых узлах
+- размер оперативной памяти
+- размер диска, смонтированного в `/`
+- версия ОС
